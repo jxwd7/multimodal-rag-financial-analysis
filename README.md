@@ -10,8 +10,6 @@ This was a project for MAIB SEPT 2023 (AI Automation in Finance) by Ngo Pham Uye
 
 Standard RAG systems often fail when information is contained within tables, charts, or complex layouts in a PDF, leading to hallucinations or incorrect data extraction. This project's "Smart MRAG" solves this by providing the LLM with visual context.
 
-![System Demo](link_to_your_demo_image.png) <!-- Add the screenshot from your notebook showing the table image -->
-
 ## 🔬 Architectures Compared
 
 1.  **Smart MRAG (Hybrid):** A novel approach that retrieves a text chunk, then extracts an **image of the corresponding PDF page** to send to GPT-4o for visual context.
